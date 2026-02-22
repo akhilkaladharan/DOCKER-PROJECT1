@@ -52,10 +52,22 @@ Before starting, ensure you have:
 
 ---
 
-## 🐳 Step 1: Build the Docker Image
+## 🐳 Step 1: Create a Dockerfile
+
+```text
+FROM nginx:latest
+EXPOSE 80
+COPY snapshot /usr/share/nginx/html
+CMD ["nginx","-g","daemon off;"]
+```
+
+---
+
+## 🐳 Step 1: Create a Dockerfile
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+docker build -f project1 -t nginx_p1:latest
+```
+
