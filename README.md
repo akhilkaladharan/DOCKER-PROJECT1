@@ -18,13 +18,10 @@ The goal of this project is to:
 
 ## 🛠️ Tech Stack
 
-- **Frontend/Backend:** (e.g., Node.js, React, Python, etc.)
 - **Containerization:** Docker
 - **Cloud Provider:** AWS
 - **AWS Services Used:**
   - Amazon EC2 (Elastic Compute Cloud)
-  - Amazon ECR (Elastic Container Registry)
-  - Amazon ECS (Elastic Container Service) – optional
   - IAM (Identity and Access Management)
   - Security Groups
 - **Version Control:** Git & GitHub
